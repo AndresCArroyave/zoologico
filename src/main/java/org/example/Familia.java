@@ -15,8 +15,8 @@ public class Familia {
 
         //Este metodo muestra los nombres de los integrantes de la familia
         System.out.println(
-                "El papá es: "+ this.mama.getNombre() +
-                        "\nLa mamá es: "+ this.papa.getNombre() +
+                "El papá es: "+ this.papa.getNombre() +
+                        "\nLa mamá es: "+ this.mama.getNombre() +
                             "\nEl hijo es: "+ this.hijo.getNombre()
         );
 
