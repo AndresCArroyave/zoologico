@@ -33,7 +33,7 @@ public class Familia {
 
     public void tenerHijo(String nombre){
 
-        if(this.mama.getPareja() !=null){
+        if(this.papa.getPareja() !=null){
 
             Animal hijo= new Animal();
             hijo.setNombre(nombre);
